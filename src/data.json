@@ -1,0 +1,304 @@
+{
+  "scanDate": "March 19, 2026",
+  "windowLabel": "Mar 19 – Apr 20, 2026",
+  "events": [
+    {
+      "week": "W12", "dates": "Mar 19–25", "game": "Whiteout Survival", "name": "Post-Anniversary: Canyon Clash + Frostdragon Tyrant",
+      "desc": "Anniversary ended Mar 12. Recurring event cycle now active. Canyon Clash has new guardian sorting by fuel amount. Frostdragon Tyrant has march path filter. Steady whale engagement cycle.",
+      "start": "Cycle", "end": "Cycle", "signal": "MEDIUM", "priority": "MED", "status": "TO DO",
+      "blog": "WoS Canyon Clash: fuel assignment + guardian sorting strategy for competitive whales",
+      "source": "https://www.whiteoutsurvival.wiki/events/", "sourceLabel": "WoS Wiki"
+    },
+    {
+      "week": "W12", "dates": "Mar 19–25", "game": "Evony", "name": "St. Patrick's Day 2026 (active)",
+      "desc": "Launched Mar 13. Party Cake mechanic with Hugh O'Donnell officer at Lv10. Lost Treasures event (Emerald Crown castle decoration). Mercury Guardian Hermes skin via Divination of Fate. Tishtrya still available in 5th tier packages.",
+      "start": "Mar 13", "end": "~Mar 24", "signal": "VERY HIGH", "priority": "HIGH", "status": "TO DO",
+      "blog": "Evony St. Patrick's Day 2026: Party Cake spending tiers + Hugh O'Donnell officer evaluation",
+      "source": "https://info.topgamesinc.com/join-evony-2026-st-patricks-day-for-ulster-cycle-irish-adventure/", "sourceLabel": "Top Games Official"
+    },
+    {
+      "week": "W12", "dates": "Mar 19–25", "game": "Evony", "name": "Season 17 All-Star (ongoing)",
+      "desc": "Cross-server PvP season. Elder Dragon Mengzhang unlock opportunity. Ranking-based rewards. Heavy competitive spending.",
+      "start": "Ongoing", "end": "Ongoing", "signal": "VERY HIGH", "priority": "HIGH", "status": "TO DO",
+      "blog": "Evony S17 All-Star: alliance coordination guide for Elder Dragon Mengzhang",
+      "source": "https://info.topgamesinc.com/evony-news/", "sourceLabel": "Top Games News"
+    },
+    {
+      "week": "W12", "dates": "Mar 19–25", "game": "Rise of Kingdoms", "name": "Zenith of Power (Infantry Skin) settling + Talent Rework meta",
+      "desc": "Zenith event winding down or recently ended. Talent tree rework + Smite nerf now settled into new meta. Respec demand still high.",
+      "start": "~Mar 2", "end": "~Mar 20", "signal": "HIGH", "priority": "HIGH", "status": "TO DO",
+      "blog": "RoK post-Zenith: best talent builds after Smite nerf + what to invest in next",
+      "source": "https://twitter.com/RiseofKingdoms", "sourceLabel": "RoK Official X"
+    },
+    {
+      "week": "W12", "dates": "Mar 19–25", "game": "State of Survival", "name": "Survival of the Fittest + Vehicles rollout",
+      "desc": "Weekly SoF event (sequencing rewards > speed). War Factory / Vehicles feature in select states. Deploy vehicles in marches for troop bonuses.",
+      "start": "Weekly", "end": "Weekly", "signal": "HIGH", "priority": "HIGH", "status": "TO DO",
+      "blog": "SoS Vehicles: how War Factory changes rally Power calculations for alliance leaders",
+      "source": "https://stateofsurvival.game/en/list", "sourceLabel": "SoS Official"
+    },
+    {
+      "week": "W12", "dates": "Mar 19–25", "game": "Tiles Survive", "name": "Arcadian Conquest (cross-state PvP)",
+      "desc": "Major cross-state PvP. Alliance leaders prep heavily. Occupation points strategy. High spending concentration.",
+      "start": "~Mar 17", "end": "~Mar 23", "signal": "VERY HIGH", "priority": "HIGH", "status": "TO DO",
+      "blog": "Tiles Survive Arcadian Conquest: top alliance occupation strategy guide",
+      "source": "https://kingshotguides.com/guide/events-calendar/", "sourceLabel": "KS Guides"
+    },
+    {
+      "week": "W12", "dates": "Mar 19–25", "game": "Last Asylum: Plague", "name": "New Alliance + Cross-Server Event (announced)",
+      "desc": "Brand new alliance and cross-server events announced on official Facebook. High revenue game, no focused creator coverage. First-mover content opportunity.",
+      "start": "~Mar/Apr", "end": "TBD", "signal": "HIGH", "priority": "HIGH", "status": "TO DO",
+      "blog": "Last Asylum: Plague first alliance event guide — what serious spenders need to know",
+      "source": "https://www.facebook.com/lastasylumplague/", "sourceLabel": "Last Asylum Facebook"
+    },
+    {
+      "week": "W12", "dates": "Mar 19–25", "game": "King Shot", "name": "4-Week Cycle: Strongest Governor phase",
+      "desc": "Predictable 4-week cycle. SG = daily competitive stages. Alliance Mobilization follows. Governor Stamina Pack available.",
+      "start": "Cycle", "end": "Cycle", "signal": "MEDIUM", "priority": "MED", "status": "TO DO",
+      "blog": "King Shot Strongest Governor: daily stage optimization for competitive governors",
+      "source": "https://kingshot.net/calendar", "sourceLabel": "Kingshot.net Calendar"
+    },
+
+    {
+      "week": "W13", "dates": "Mar 26–Apr 1", "game": "King Shot", "name": "Strongest Governor + Alliance Mobilization",
+      "desc": "Major competitive event with daily stages. Alliance Mobilization follows. Heavy whale spending on hero readiness.",
+      "start": "~Mar 24", "end": "~Mar 30", "signal": "VERY HIGH", "priority": "HIGH", "status": "PLANNED",
+      "blog": "King Shot SG: daily stage optimization + alliance coordination timing",
+      "source": "https://kingshotmastery.com/events", "sourceLabel": "KS Mastery"
+    },
+    {
+      "week": "W13", "dates": "Mar 26–Apr 1", "game": "State of Survival", "name": "Reservoir Raid + Capital Clash prep",
+      "desc": "Execution-heavy PvP. Real alliance consequences. Tactical Emotes available. Rewards scale with preparation.",
+      "start": "~Mar 26", "end": "~Mar 30", "signal": "VERY HIGH", "priority": "HIGH", "status": "PLANNED",
+      "blog": "SoS Reservoir Raid: tactical deployment guide for alliance leaders",
+      "source": "https://stateofsurvival.game/en/list", "sourceLabel": "SoS Official"
+    },
+    {
+      "week": "W13", "dates": "Mar 26–Apr 1", "game": "Evony", "name": "Post-St. Patrick's Day transition",
+      "desc": "St. Paddy's ending. Coin cleanup. Next themed event likely announced. Resource hoarding window.",
+      "start": "~Mar 24", "end": "~Mar 28", "signal": "MEDIUM", "priority": "MED", "status": "PLANNED",
+      "blog": "Evony between events: what to hoard before the next cycle drops",
+      "source": "https://info.topgamesinc.com/evony-news/", "sourceLabel": "Top Games News"
+    },
+    {
+      "week": "W13", "dates": "Mar 26–Apr 1", "game": "Rise of Kingdoms", "name": "Zenith Classic Store (Faded Badges)",
+      "desc": "Legacy skin collection spending. Badge economy for long-term value.",
+      "start": "~Mar 23", "end": "Ongoing", "signal": "HIGH", "priority": "MED", "status": "PLANNED",
+      "blog": "RoK Classic Zenith Store: which legacy skins actually hold value",
+      "source": "https://twitter.com/RiseofKingdoms", "sourceLabel": "RoK Official X"
+    },
+    {
+      "week": "W13", "dates": "Mar 26–Apr 1", "game": "Albion Online", "name": "Rites of Spring (starts Mar 31)",
+      "desc": "Two-week seasonal event. Spring Treasure Chests across the world. Chocolate eggs for Fame Boosts. Cottontail eggs → rare bunny mounts. Runs Mar 31 – ~Apr 13.",
+      "start": "Mar 31", "end": "~Apr 13", "signal": "HIGH", "priority": "HIGH", "status": "PLANNED",
+      "blog": "Albion Online Rites of Spring 2026: treasure chest farming + bunny mount guide",
+      "source": "https://www.mmorpg.com/news/radiant-wilds-albion-onlines-next-major-update-brings-a-huge-visual-overhaul-across-biomes-in-april-2000137558", "sourceLabel": "MMORPG.com"
+    },
+
+    {
+      "week": "W14", "dates": "Apr 2–8", "game": "ALL GAMES", "name": "Q2 Kickoff: Spring/Easter events expected",
+      "desc": "Cross-game seasonal spending window. Easter/Spring premium packs historically across all 4X titles.",
+      "start": "~Apr 1", "end": "~Apr 14", "signal": "HIGH", "priority": "HIGH", "status": "PREDICTED",
+      "blog": "How to budget your 4X spend during spring events: multi-game alliance leader guide",
+      "source": "", "sourceLabel": "Cross-game prediction"
+    },
+    {
+      "week": "W14", "dates": "Apr 2–8", "game": "Whiteout Survival", "name": "Expected: Spring Festival + new hero cycle",
+      "desc": "Historical: seasonal event ~3-4 weeks post-anniversary. New hero + themed packs expected.",
+      "start": "~Apr 3", "end": "~Apr 10", "signal": "HIGH", "priority": "HIGH", "status": "PREDICTED",
+      "blog": "WoS Spring 2026: which seasonal packs are worth buying for alliance leaders?",
+      "source": "https://x.com/WOS_Global", "sourceLabel": "WoS Official X"
+    },
+    {
+      "week": "W14", "dates": "Apr 2–8", "game": "Evony", "name": "Expected: Napoleon Collaboration return (~Apr 5)",
+      "desc": "Historical pattern: Napoleon collab events in early April. Isaac Brock + Napoleon Prime generals. Wheel of Past Secret. Major collector spending.",
+      "start": "~Apr 5", "end": "~Apr 19", "signal": "VERY HIGH", "priority": "HIGH", "status": "PREDICTED",
+      "blog": "Evony Napoleon Collaboration 2026: is Napoleon Prime worth chasing this time?",
+      "source": "https://info.topgamesinc.com/evony-napoleon-collaboration-general-and-events-come-back/", "sourceLabel": "Top Games (historical)"
+    },
+    {
+      "week": "W14", "dates": "Apr 2–8", "game": "Albion Online", "name": "Rites of Spring (active) + Radiant Wilds countdown",
+      "desc": "Rites of Spring in full swing. Radiant Wilds update drops Apr 13. Players hoarding for visual overhaul + Armory feature.",
+      "start": "Mar 31", "end": "Apr 13", "signal": "HIGH", "priority": "HIGH", "status": "PLANNED",
+      "blog": "Albion Online: Rites of Spring guide + what to prepare for Radiant Wilds",
+      "source": "https://albiononline.com/news", "sourceLabel": "Albion Official"
+    },
+
+    {
+      "week": "W15", "dates": "Apr 9–15", "game": "Albion Online", "name": "Radiant Wilds launch (Apr 13)",
+      "desc": "Major update: full visual overhaul (lighting, water, textures, biomes). The Armory (data-driven build recs). 1v1 Arena PvP. Performance improvements. Controller upgrades.",
+      "start": "Apr 13", "end": "Ongoing", "signal": "VERY HIGH", "priority": "HIGH", "status": "PLANNED",
+      "blog": "Albion Online Radiant Wilds: what the visual overhaul + Armory mean for competitive players",
+      "source": "https://albiononline.com/news", "sourceLabel": "Albion Official"
+    },
+    {
+      "week": "W15", "dates": "Apr 9–15", "game": "Rise of Kingdoms", "name": "Expected: More Than Gems / Wheel of Fortune",
+      "desc": "Historical: MTG/WoF in early-mid April. Peak gem spending event. Whale decision point.",
+      "start": "~Apr 9", "end": "~Apr 16", "signal": "VERY HIGH", "priority": "HIGH", "status": "PREDICTED",
+      "blog": "RoK Wheel of Fortune 2026: optimal spin strategy + gem budgeting for whale accounts",
+      "source": "https://twitter.com/RiseofKingdoms", "sourceLabel": "RoK Official X"
+    },
+    {
+      "week": "W15", "dates": "Apr 9–15", "game": "Last War: Survival", "name": "Sky Battlefront (seasonal alliance event)",
+      "desc": "Major alliance war event. Heavy coordination + spending required.",
+      "start": "~Apr 9", "end": "~Apr 15", "signal": "VERY HIGH", "priority": "HIGH", "status": "PREDICTED",
+      "blog": "Last War Sky Battlefront: alliance leader prep checklist",
+      "source": "", "sourceLabel": "Historical pattern"
+    },
+    {
+      "week": "W15", "dates": "Apr 9–15", "game": "State of Survival", "name": "Expected: SVS prep cycle",
+      "desc": "SVS = highest spending event in SoS. Prep phase content has max impact.",
+      "start": "~Apr 9", "end": "~Apr 16", "signal": "VERY HIGH", "priority": "HIGH", "status": "PREDICTED",
+      "blog": "SoS SVS prep: diamond deployment strategy for alliance war leaders",
+      "source": "https://stateofsurvival.game/en/list", "sourceLabel": "SoS Official"
+    },
+    {
+      "week": "W15", "dates": "Apr 9–15", "game": "Dragon Traveler", "name": "Emerging game monitoring",
+      "desc": "Action/RPG launched Jan 13, 2026. ~$5M/month revenue. Low creator coverage. Events are P2W-heavy. Potential whale audience if events mature.",
+      "start": "Ongoing", "end": "Ongoing", "signal": "MEDIUM", "priority": "LOW", "status": "MONITOR",
+      "blog": "Dragon Traveler: is this the next whale game to watch? Early spender analysis",
+      "source": "https://www.facebook.com/dragontravelerofficial/", "sourceLabel": "Dragon Traveler FB"
+    },
+    {
+      "week": "W15", "dates": "Apr 9–15", "game": "The Grand Mafia", "name": "Ongoing monitoring",
+      "desc": "Mature game, steady revenue, declining creator ecosystem. Monitor for seasonal events.",
+      "start": "Ongoing", "end": "Ongoing", "signal": "LOW", "priority": "LOW", "status": "MONITOR",
+      "blog": "The Grand Mafia: current state for serious spenders — still worth it?",
+      "source": "https://play.google.com/store/apps/details?id=com.yottagames.gameofmafia", "sourceLabel": "Google Play"
+    },
+    {
+      "week": "W15", "dates": "Apr 9–15", "game": "The Tower: Idle Defense", "name": "Ongoing monitoring",
+      "desc": "ICP-adjacent idle defense. Creator activity increasing but still low. Monitor for seasonal events.",
+      "start": "Ongoing", "end": "Ongoing", "signal": "LOW", "priority": "LOW", "status": "MONITOR",
+      "blog": "The Tower Idle Defense: spending guide for competitive players",
+      "source": "https://play.google.com/store/apps/details?id=com.TechTreeGames.TheTower", "sourceLabel": "Google Play"
+    }
+  ],
+
+  "newsletters": [
+    {
+      "date": "Fri, Mar 21", "game": "Evony", "segment": "Royalty + Elite × Evony", "query": "Primary game = Evony · ordered last 45 days",
+      "size": "~120", "creator": "—", "subject": "St. Patrick's Day in Evony: have you hit Party Cake Lv10 yet?",
+      "preheader": "Hugh O'Donnell officer unlocks at Lv10. Here's the spending math to get there.",
+      "content": "Party Cake spending tiers + Hugh O'Donnell evaluation + Lost Treasures optimization. Frame: 'The officer at Lv10 is worth the push if you're running rallies.'",
+      "webflow": "[Evony St. Patrick's Day guide] · [Evony Starry Pilgrimage cleanup]",
+      "goal": "Drive event spending during St. Paddy's active window", "cta": "Top up your gems → [app link]"
+    },
+    {
+      "date": "Sun, Mar 23", "game": "Tiles Survive", "segment": "Elite × Tiles Survive", "query": "Primary game = Tiles · ordered last 45 days",
+      "size": "~25", "creator": "—", "subject": "Arcadian Conquest: your alliance occupation checklist",
+      "preheader": "Cross-state PvP requires prep now, not during the event.",
+      "content": "Occupation points strategy + troop preparation checklist. Frame: 'Alliances that deploy early dominate occupation.'",
+      "webflow": "[Tiles Survive Arcadian Conquest guide]",
+      "goal": "Support alliance PvP spending", "cta": "Get your troops ready → [app link]"
+    },
+    {
+      "date": "Wed, Mar 26", "game": "King Shot", "segment": "Elite × King Shot", "query": "Primary game = KS · ordered last 45 days",
+      "size": "~45", "creator": "—", "subject": "Strongest Governor this cycle: your daily plan",
+      "preheader": "SG daily stages are running. Here's the point math most governors miss.",
+      "content": "SG daily optimization. Frame: 'Leaders who plan SG days outperform reactors.'",
+      "webflow": "[King Shot SG guide] · [KS event calendar]",
+      "goal": "Drive SG-timed spending", "cta": "Check the SG optimization → [blog link]"
+    },
+    {
+      "date": "Fri, Mar 28", "game": "State of Survival", "segment": "Royalty × SoS", "query": "Primary game = SoS · top tier · active last 30 days",
+      "size": "~30", "creator": "—", "subject": "Reservoir Raid this weekend: your tactical edge",
+      "preheader": "Deploy heroes tonight, not during the event.",
+      "content": "Reservoir Raid deployment + diamond allocation. Frame: 'Strongest alliances deploy before, not during.'",
+      "webflow": "[SoS Reservoir Raid guide] · [SoS events worth diamonds]",
+      "goal": "Support high-stakes PvP", "cta": "Get diamonds ready → [app deep link]"
+    },
+    {
+      "date": "Mon, Mar 31", "game": "Albion Online", "segment": "Elite × Albion", "query": "Primary game = Albion · ordered last 45 days",
+      "size": "~60", "creator": "—", "subject": "Rites of Spring is live + Radiant Wilds drops in 2 weeks",
+      "preheader": "Treasure chests spawning. Bunny mounts up for grabs. And the biggest visual overhaul in Albion history is 2 weeks away.",
+      "content": "Rites of Spring farming guide + Radiant Wilds preview (Armory, 1v1 Arena). Frame: 'Players who learn the Armory first gain the edge.'",
+      "webflow": "[Albion Rites of Spring guide] · [Albion Radiant Wilds preview]",
+      "goal": "Drive engagement before major update", "cta": "Read the prep guide → [blog link]"
+    },
+    {
+      "date": "Thu, Apr 3", "game": "ALL GAMES", "segment": "All tiers (Low Balance)", "query": "Lifetime spend >$300 · credit balance <$50K · ordered last 60 days",
+      "size": "~800", "creator": "—", "subject": "Spring events are starting — is your balance ready?",
+      "preheader": "Don't get caught mid-event without credits. 2 minutes to top up.",
+      "content": "Balance reminder + spring event preview. Frame: 'Smart players prep balance before peak season.'",
+      "webflow": "[Cross-game spring guide] · [How Packsify keeps accounts safe]",
+      "goal": "Deposit replenishment before spring", "cta": "Top up your balance → [deposit link]"
+    },
+    {
+      "date": "Mon, Apr 7", "game": "Evony", "segment": "Royalty + Elite × Evony", "query": "Primary game = Evony · ordered last 45 days",
+      "size": "~120", "creator": "—", "subject": "Napoleon is back — here's the spending math",
+      "preheader": "Napoleon Prime + Isaac Brock returning. Is this rotation worth chasing?",
+      "content": "Napoleon Collab analysis + Wheel of Past Secret value. Frame: 'Collectors who missed Napoleon last time — this is your window.'",
+      "webflow": "[Evony Napoleon Collab guide] · [Evony spending strategy]",
+      "goal": "Capture Napoleon event spending", "cta": "Load your credits → [deposit link]"
+    },
+    {
+      "date": "Fri, Apr 11", "game": "Rise of Kingdoms", "segment": "Royalty + Elite × RoK", "query": "Primary game = RoK · ordered last 60 days",
+      "size": "~90", "creator": "—", "subject": "Wheel of Fortune is spinning — optimal strategy inside",
+      "preheader": "Peak gem spending event. Know your stop point before the first spin.",
+      "content": "WoF optimization: stop points, gem tiers, commander priority. Frame: 'Smart players calculate before they spin.'",
+      "webflow": "[RoK Wheel of Fortune guide] · [RoK KvK prep 2026]",
+      "goal": "Capture WoF spending", "cta": "Top up gems → [app link]"
+    },
+    {
+      "date": "Sun, Apr 13", "game": "Albion Online", "segment": "Royalty + Elite × Albion", "query": "Primary game = Albion · active last 30 days",
+      "size": "~60", "creator": "—", "subject": "Radiant Wilds drops today — your Albion just changed",
+      "preheader": "Visual overhaul + Armory + 1v1 Arena. The biggest Albion update in years.",
+      "content": "Radiant Wilds launch guide: Armory meta builds, 1v1 Arena, performance changes. Frame: 'Players who adapt to new tools first gain the edge.'",
+      "webflow": "[Albion Radiant Wilds guide] · [Albion Armory builds]",
+      "goal": "Drive engagement on update launch day", "cta": "Read the Radiant Wilds guide → [blog link]"
+    },
+    {
+      "date": "Wed, Apr 16", "game": "Last Asylum: Plague", "segment": "Elite × Last Asylum", "query": "Primary game = Last Asylum · ordered last 60 days",
+      "size": "~35", "creator": "—", "subject": "Your first alliance event in Last Asylum — the only guide that exists",
+      "preheader": "No other source covers this. First-mover advantage for serious spenders.",
+      "content": "Alliance event mechanics + hero lineup + spending priorities. Frame: 'No focused creator covers Last Asylum. We do.'",
+      "webflow": "[Last Asylum alliance guide] · [Last Asylum hero tier list]",
+      "goal": "Establish authority in new game with zero creator competition", "cta": "Check the alliance guide → [blog link]"
+    }
+  ],
+
+  "posts": [
+    {"id": "D-1", "day": "Thu Mar 20", "channel": "Discord", "title": "Evony St. Paddy's: Party Cake Strategy", "format": "Individual Post", "copy": "St. Patrick's Day in Evony is rolling. Party Cake Lv10 unlocks Hugh O'Donnell officer. We published the spending tier breakdown. Have you hit Lv10 yet? What are you prioritizing: officer or Lost Treasures?", "cta": "[Link to blog]", "notes": "Publish IMMEDIATELY. Evony forum.", "status": "TO DO"},
+    {"id": "D-2", "day": "Thu Mar 20", "channel": "Discord", "title": "Tiles Survive: Arcadian Conquest Prep", "format": "Individual Post", "copy": "Arcadian Conquest is live. Cross-state PvP requires troop prep now. We published an occupation strategy guide. How is your alliance prepping? Troop comp? Target strategy?", "cta": "[Link to blog]", "notes": "Publish IMMEDIATELY. TS channel.", "status": "TO DO"},
+    {"id": "X-1", "day": "Fri Mar 21", "channel": "X (Twitter)", "title": "Sharp Insight: SoS Vehicles", "format": "Single Tweet", "copy": "SoS Vehicles feature reshuffled rally Power math. Alliance leaders who understand deployment first will own the next Reservoir Raid.", "cta": "[Link to blog]", "notes": "~200 chars. Schedule via Metricool.", "status": "TO DO"},
+    {"id": "IG-1", "day": "Sat Mar 22", "channel": "Instagram", "title": "This Week in 4X Carousel", "format": "5-Slide Carousel", "copy": "S1: 'This week in 4X: what alliance leaders need to know' / S2: 'Evony: St. Patrick's Day spending math' / S3: 'SoS: Vehicles change rally power' / S4: 'Tiles: Arcadian Conquest live' / S5: '17K+ accounts. 4 years. 0 bans. Link in bio.'", "cta": "Link in bio", "notes": "Cross-game synthesis. Trust signal final.", "status": "TO DO"},
+    {"id": "FB-1", "day": "Sat Mar 22", "channel": "Facebook", "title": "Weekly Trust Post", "format": "Trust Post", "copy": "This week we published event prep guides for 5 different games. The consistent pattern: the decisions you make before events determine 80% of results. That's why alliance leaders keep coming back. 4+ years. 120K+ orders. Zero bans.", "cta": "[Link to blog hub]", "notes": "Trust framing. No game names.", "status": "TO DO"},
+    {"id": "D-3", "day": "Fri Mar 21", "channel": "Discord", "title": "Weekly Roundup: Evony + Tiles + SoS + RoK", "format": "Synthesis Thread", "copy": "Big week: Evony St. Paddy's active. Tiles Arcadian Conquest. SoS Vehicles rolling out. RoK talent meta settling. We published 8+ guides. Pattern: preparation > reaction. What's your focus?", "cta": "[Links to top blogs]", "notes": "Friday roundup.", "status": "TO DO"},
+
+    {"id": "D-4", "day": "Mon Mar 24", "channel": "Discord", "title": "KS Strongest Governor: Daily Plan", "format": "Individual Post", "copy": "Strongest Governor is running. Daily stage optimization guide live. Which stage are you pushing hardest?", "cta": "[Link to blog]", "notes": "Publish IMMEDIATELY. King Shot forum.", "status": "PLANNED"},
+    {"id": "D-5", "day": "Mon Mar 24", "channel": "Discord", "title": "SoS Reservoir Raid: Deploy Now", "format": "Individual Post", "copy": "Reservoir Raid starts soon. Deploy heroes tonight, not during the event. Tactical guide covers formations + diamond allocation.", "cta": "[Link to blog]", "notes": "Publish IMMEDIATELY. SoS forum.", "status": "PLANNED"},
+    {"id": "X-2", "day": "Tue Mar 25", "channel": "X (Twitter)", "title": "Sharp Insight: Preparation", "format": "Single Tweet", "copy": "SoS Reservoir Raid rewards preparation over panic. KS Strongest Governor rewards sequencing over speed. Universal: plan before you spend.", "cta": "—", "notes": "~220 chars. Universal insight.", "status": "PLANNED"},
+    {"id": "IG-2", "day": "Wed Mar 26", "channel": "Instagram", "title": "RoK Classic Zenith Carousel", "format": "4-Slide Carousel", "copy": "S1: 'RoK Classic Zenith: 2 legacy skins worth badges' / S2: 'Skin #1 — holds long-term value' / S3: 'Skin #2 — the collector's pick' / S4: '3 to skip. Smart choices. Link in bio.'", "cta": "Link in bio", "notes": "Trust signal.", "status": "PLANNED"},
+    {"id": "FB-2", "day": "Thu Mar 27", "channel": "Facebook", "title": "Preparation Trust Post", "format": "Trust Post", "copy": "Alliance leaders across 5 games are preparing for high-stakes events this week. The smartest started days ago. We publish prep guides because how you plan matters as much as how you spend. 4+ years. 120K+ orders. Zero bans.", "cta": "[Link to blog hub]", "notes": "No game names.", "status": "PLANNED"},
+    {"id": "D-6", "day": "Fri Mar 28", "channel": "Discord", "title": "Weekly Roundup: KS + SoS + RoK", "format": "Synthesis Thread", "copy": "Week: KS SG, SoS Reservoir Raid, RoK Classic Zenith. Universal: preparation > panic. Biggest win this week?", "cta": "[Links to blogs]", "notes": "Friday roundup.", "status": "PLANNED"},
+
+    {"id": "D-7", "day": "Mon Mar 31", "channel": "Discord", "title": "Albion Rites of Spring: Treasure Farming", "format": "Individual Post", "copy": "Rites of Spring is live in Albion. Treasure chests spawning. Cottontail eggs = rare bunny mount. We published a farming guide. What's your egg farming strategy?", "cta": "[Link to blog]", "notes": "Publish IMMEDIATELY. Albion channel.", "status": "PLANNED"},
+    {"id": "D-8", "day": "Mon Mar 31", "channel": "Discord", "title": "Spring Events: Cross-Game Budget", "format": "Individual Post", "copy": "Spring events landing across multiple games. Multi-game budget guide for leaders who play 2+ games. Where are you prioritizing?", "cta": "[Link to blog]", "notes": "General/lobby.", "status": "PREDICTED"},
+    {"id": "X-3", "day": "Tue Apr 1", "channel": "X (Twitter)", "title": "Sharp Insight: Cross-Game Budgeting", "format": "Single Tweet", "copy": "Spring events hit every 4X game in April. Alliance leaders who budget across games outperform those who react game by game.", "cta": "—", "notes": "~150 chars.", "status": "PREDICTED"},
+    {"id": "IG-3", "day": "Wed Apr 2", "channel": "Instagram", "title": "Spring Spending Guide Carousel", "format": "5-Slide Carousel", "copy": "S1: 'Spring 2026: 4X spending guide' / S2: 'WoS spring event incoming' / S3: 'Evony Napoleon expected' / S4: 'Albion Radiant Wilds Apr 13' / S5: 'Budget smart. Link in bio.'", "cta": "Link in bio", "notes": "Cross-game.", "status": "PREDICTED"},
+    {"id": "D-9", "day": "Fri Apr 4", "channel": "Discord", "title": "Weekly Roundup: Spring + Albion + Evony", "format": "Synthesis Thread", "copy": "Rites of Spring in Albion. Spring events across games. Evony Napoleon expected. What's your April spending plan?", "cta": "[Links]", "notes": "Friday roundup.", "status": "PREDICTED"},
+
+    {"id": "D-10", "day": "Mon Apr 7", "channel": "Discord", "title": "Napoleon Returns to Evony", "format": "Individual Post", "copy": "Napoleon Collaboration is back. Napoleon Prime + Isaac Brock. Wheel of Past Secret has Napoleon's Treasure. We published the spending analysis. Worth chasing this rotation?", "cta": "[Link to blog]", "notes": "Evony forum.", "status": "PREDICTED"},
+    {"id": "X-4", "day": "Tue Apr 8", "channel": "X (Twitter)", "title": "Sharp Insight: Napoleon", "format": "Single Tweet", "copy": "Napoleon is back in Evony. Most chase the general. Smart players calculate the Wheel of Past Secret math first.", "cta": "[Link]", "notes": "~180 chars.", "status": "PREDICTED"},
+    {"id": "IG-4", "day": "Wed Apr 9", "channel": "Instagram", "title": "Albion Radiant Wilds Carousel", "format": "5-Slide Carousel", "copy": "S1: 'Albion just got a massive overhaul' / S2: 'The Armory: build recommendations from real data' / S3: '1v1 Arena: risk-free PvP training' / S4: 'Performance + controller upgrades' / S5: 'Your game just got better. Link in bio.'", "cta": "Link in bio", "notes": "Trust signal.", "status": "PREDICTED"},
+    {"id": "FB-3", "day": "Thu Apr 10", "channel": "Facebook", "title": "April Events Trust Post", "format": "Trust Post", "copy": "This week: Evony Napoleon event, Albion's biggest update in years, RoK Wheel of Fortune, SoS SVS prep. Across 12+ games, alliance leaders trust Packsify because we show up with the guide before the event starts. 4+ years. 120K+ orders. Zero bans.", "cta": "[Link to blog hub]", "notes": "Authority framing.", "status": "PREDICTED"},
+    {"id": "D-11", "day": "Fri Apr 11", "channel": "Discord", "title": "Weekly Roundup: Napoleon + Radiant Wilds + WoF + SVS", "format": "Synthesis Thread", "copy": "Massive week: Evony Napoleon. Albion Radiant Wilds Apr 13. RoK Wheel of Fortune. SoS SVS prep. 12+ guides published. What's your biggest investment this week?", "cta": "[Links]", "notes": "Friday roundup.", "status": "PREDICTED"},
+    {"id": "D-12", "day": "Mon Apr 14", "channel": "Discord", "title": "Radiant Wilds is Live: Armory Builds", "format": "Individual Post", "copy": "Radiant Wilds dropped today. The Armory recommends builds from real data. We published a breakdown. Have you tried the 1v1 Arena? Share impressions.", "cta": "[Link to blog]", "notes": "Albion channel.", "status": "PREDICTED"},
+    {"id": "D-13", "day": "Mon Apr 14", "channel": "Discord", "title": "Last Asylum: First Alliance Event Guide", "format": "Individual Post", "copy": "Last Asylum's first alliance event is rolling out. No other guide covers this. Full breakdown published. If you're leading an alliance here, this is the playbook.", "cta": "[Link to blog]", "notes": "Create Last Asylum channel if needed.", "status": "PREDICTED"}
+  ],
+
+  "pushes": [
+    {"week": "W12", "game": "Evony", "event": "St. Patrick's Day active", "trigger": "Spending Window", "timing": "Mar 20 (mid-event)", "segment": "Royalty + Elite × Evony, ordered last 45d", "title": "St. Patrick's Party Cake: hit Lv10?", "body": "Hugh O'Donnell officer unlocks at Party Cake Lv10. Our guide shows the spending math to get there efficiently.", "cta": "View Party Cake guide → [blog]", "blog": "Evony St. Paddy's guide"},
+    {"week": "W12", "game": "Tiles Survive", "event": "Arcadian Conquest", "trigger": "Pre-Event Reminder", "timing": "Mar 19 (event active)", "segment": "Elite × Tiles Survive, ordered last 45d", "title": "Arcadian Conquest: deploy troops now", "body": "Cross-state PvP requires troop prep tonight. Alliance leaders who deploy early dominate occupation.", "cta": "View occupation guide → [blog]", "blog": "TS Arcadian guide"},
+    {"week": "W13", "game": "King Shot", "event": "Strongest Governor", "trigger": "Spending Window", "timing": "~Mar 26 (mid-SG)", "segment": "Elite × King Shot, active last 14d", "title": "SG daily stages: optimizing points?", "body": "Most governors waste points on wrong stages. Our guide shows the daily math.", "cta": "View SG guide → [blog]", "blog": "KS SG guide"},
+    {"week": "W13", "game": "State of Survival", "event": "Reservoir Raid", "trigger": "Pre-Event Reminder", "timing": "~Mar 25 (1 day before)", "segment": "Royalty × SoS, active last 14d", "title": "Reservoir Raid starts tomorrow", "body": "Deploy heroes tonight. Our tactical guide has formation setup + diamond allocation.", "cta": "Read tactical guide → [blog]", "blog": "SoS Reservoir guide"},
+    {"week": "W13", "game": "Albion Online", "event": "Rites of Spring", "trigger": "Pre-Event Reminder", "timing": "Mar 31 (event launch)", "segment": "Elite × Albion, active last 30d", "title": "Rites of Spring starts today", "body": "Treasure chests spawning across Albion. Cottontail eggs = rare bunny mount. Our farming guide is live.", "cta": "View farming guide → [blog]", "blog": "Albion Rites guide"},
+    {"week": "W14", "game": "ALL GAMES", "event": "Spring season", "trigger": "Pre-Event Reminder", "timing": "~Apr 1", "segment": "All Royalty + Elite, ordered last 60d", "title": "Spring events dropping across all games", "body": "Multiple games launching seasonal events. Our cross-game budget guide helps allocate smart.", "cta": "View spring guide → [blog]", "blog": "Spring budget guide"},
+    {"week": "W14", "game": "Evony", "event": "Napoleon Collaboration", "trigger": "Spending Window", "timing": "~Apr 5 (event launch)", "segment": "Royalty + Elite × Evony, ordered last 45d", "title": "Napoleon returns to Evony", "body": "Napoleon Prime + Isaac Brock for limited time. Check our analysis before committing to the Wheel.", "cta": "View Napoleon guide → [blog]", "blog": "Evony Napoleon guide"},
+    {"week": "W15", "game": "Albion Online", "event": "Radiant Wilds", "trigger": "Pre-Event Reminder", "timing": "Apr 12 (1 day before)", "segment": "Elite × Albion, active last 30d", "title": "Radiant Wilds drops tomorrow", "body": "Biggest Albion update in years. Visual overhaul + Armory + 1v1 Arena. Our prep guide is live.", "cta": "Read prep guide → [blog]", "blog": "Albion Radiant Wilds guide"},
+    {"week": "W15", "game": "Rise of Kingdoms", "event": "Wheel of Fortune", "trigger": "Spending Window", "timing": "~Apr 9 (event active)", "segment": "Royalty + Elite × RoK, ordered last 60d", "title": "Wheel of Fortune is live", "body": "Peak gem spending event. Our guide shows exact stop points and optimal spin strategy.", "cta": "View WoF guide → [blog]", "blog": "RoK WoF guide"},
+    {"week": "W15", "game": "State of Survival", "event": "SVS prep", "trigger": "Pre-Event Reminder", "timing": "~Apr 10", "segment": "Royalty × SoS, active last 14d", "title": "SVS starts this weekend", "body": "Deploy diamonds tonight, not during the event. Tactical guide covers hero readiness.", "cta": "Read SVS prep → [blog]", "blog": "SoS SVS guide"},
+    {"week": "W15", "game": "Last Asylum: Plague", "event": "Alliance Event", "trigger": "Pre-Event Reminder", "timing": "When event goes live", "segment": "Elite × Last Asylum, ordered last 60d", "title": "Your first alliance event is here", "body": "No other source covers this yet — we published the only guide.", "cta": "Read alliance guide → [blog]", "blog": "Last Asylum alliance guide"}
+  ]
+}
