@@ -10,6 +10,28 @@ const CHC={"Discord":"#5865F2","Instagram":"#E1306C","Facebook":"#4267B2","X (Tw
 const TC={"Pre-Event Reminder":"#22c55e","Spending Window":"#f97316","Event Ending":"#ef4444"};
 const TABS=[{id:"events",label:"📡 Event Intelligence"},{id:"newsletter",label:"📧 Newsletter Plan"},{id:"social",label:"📱 Social Calendar"},{id:"push",label:"🔔 Push Notifications"},{id:"overview",label:"📋 Week Overview"}];
 
+const MONTHS={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+const parseWeekRange=(dates)=>{
+  const parts=dates.split(/[–-]/).map(s=>s.trim());
+  if(parts.length!==2) return null;
+  const [sMon,sDayStr]=parts[0].split(/\s+/);
+  const endTokens=parts[1].split(/\s+/);
+  const eMon=endTokens.length>1?endTokens[0]:sMon;
+  const eDayStr=endTokens.length>1?endTokens[1]:endTokens[0];
+  if(MONTHS[sMon]===undefined||MONTHS[eMon]===undefined) return null;
+  return {sMon:MONTHS[sMon],sDay:+sDayStr,eMon:MONTHS[eMon],eDay:+eDayStr};
+};
+const dateInWeek=(dateStr,range)=>{
+  if(!range||!dateStr) return false;
+  const m=dateStr.match(/([A-Z][a-z]{2})\s+(\d+)/);
+  if(!m) return false;
+  const mon=MONTHS[m[1]],day=+m[2];
+  if(mon===undefined) return false;
+  const {sMon,sDay,eMon,eDay}=range;
+  if(sMon===eMon) return mon===sMon&&day>=sDay&&day<=eDay;
+  return (mon===sMon&&day>=sDay)||(mon===eMon&&day<=eDay);
+};
+
 export default function App(){
   const[tab,setTab]=useState("events");
   const[fw,setFw]=useState("ALL");
@@ -74,9 +96,12 @@ export default function App(){
         {/* OVERVIEW */}
         {tab==="overview"&&weeks.map(w=>{
           const we=EVENTS.filter(e=>e.week===w);
+          const range=we[0]?parseWeekRange(we[0].dates):null;
           const hi=we.filter(e=>e.signal==="VERY HIGH"||e.signal==="HIGH").length;
           const puCount=PUSHES.filter(p=>p.week===w).length;
-          return(<div key={w} style={{background:"#18181b",border:"1px solid #27272a",borderRadius:"8px",padding:"14px 18px",marginBottom:"12px"}}><div style={{display:"flex",alignItems:"baseline",gap:"10px",marginBottom:"10px"}}><span style={{fontSize:"16px",fontWeight:800,color:"#fafafa"}}>{w}</span><span style={{fontSize:"12px",color:"#71717a"}}>{we[0]?.dates}</span></div><div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:"6px",marginBottom:"12px"}}>{[{n:we.length,l:"Events",c:"#fafafa"},{n:hi,l:"High Priority",c:"#f97316"},{n:NEWSLETTERS.filter(n=>n.date&&((w==="W12"&&n.date.includes("Mar 2"))||(w==="W13"&&(n.date.includes("Mar 26")||n.date.includes("Mar 28")||n.date.includes("Mar 31")))||(w==="W14"&&n.date.includes("Apr")&&parseInt(n.date.split(" ")[1])<9)||(w==="W15"&&n.date.includes("Apr")&&parseInt(n.date.split(" ")[1])>=9))).length||0,l:"Newsletters",c:"#3b82f6"},{n:puCount,l:"Push Notifs",c:"#fbbf24"}].map((x,i)=><div key={i} style={{textAlign:"center",padding:"8px",background:"#09090b",borderRadius:"6px"}}><div style={{fontSize:"18px",fontWeight:800,color:x.c}}>{x.n}</div><div style={{fontSize:"9px",color:"#52525b",fontWeight:600}}>{x.l}</div></div>)}</div>{we.map((e,i)=><div key={i} style={{display:"flex",alignItems:"center",gap:"8px",padding:"4px 0",borderTop:i?"1px solid #27272a":"none"}}><GamePill g={e.game}/><span style={{fontSize:"11px",color:"#d4d4d8",flex:1}}>{e.name}</span><SigPill v={e.signal}/></div>)}</div>);
+          const nlCount=NEWSLETTERS.filter(n=>dateInWeek(n.date,range)).length;
+          const poCount=POSTS.filter(p=>dateInWeek(p.day,range)).length;
+          return(<div key={w} style={{background:"#18181b",border:"1px solid #27272a",borderRadius:"8px",padding:"14px 18px",marginBottom:"12px"}}><div style={{display:"flex",alignItems:"baseline",gap:"10px",marginBottom:"10px"}}><span style={{fontSize:"16px",fontWeight:800,color:"#fafafa"}}>{w}</span><span style={{fontSize:"12px",color:"#71717a"}}>{we[0]?.dates}</span></div><div style={{display:"grid",gridTemplateColumns:"repeat(5,1fr)",gap:"6px",marginBottom:"12px"}}>{[{n:we.length,l:"Events",c:"#fafafa"},{n:hi,l:"High Priority",c:"#f97316"},{n:nlCount,l:"Newsletters",c:"#3b82f6"},{n:poCount,l:"Social Posts",c:"#a78bfa"},{n:puCount,l:"Push Notifs",c:"#fbbf24"}].map((x,i)=><div key={i} style={{textAlign:"center",padding:"8px",background:"#09090b",borderRadius:"6px"}}><div style={{fontSize:"18px",fontWeight:800,color:x.c}}>{x.n}</div><div style={{fontSize:"9px",color:"#52525b",fontWeight:600}}>{x.l}</div></div>)}</div>{we.map((e,i)=><div key={i} style={{display:"flex",alignItems:"center",gap:"8px",padding:"4px 0",borderTop:i?"1px solid #27272a":"none"}}><GamePill g={e.game}/><span style={{fontSize:"11px",color:"#d4d4d8",flex:1}}>{e.name}</span><SigPill v={e.signal}/></div>)}</div>);
         })}
       </div>
       <div style={{padding:"14px 22px",borderTop:"1px solid #27272a",marginTop:"8px"}}><div style={{fontSize:"9px",color:"#3f3f46",lineHeight:1.6}}><strong style={{color:"#52525b"}}>Games:</strong> WoS · Evony · SoS · King Shot · RoK · Last War · Tiles Survive · Albion Online · Last Asylum · Dragon Traveler · The Grand Mafia · The Tower<br/><strong style={{color:"#52525b"}}>Principles:</strong> Blog = source of truth. Whale-only framing. Peer-to-peer tone. Packsify = safest, smartest, never cheapest. No discount framing. No identity exposure.<br/><strong style={{color:"#52525b"}}>Update:</strong> Replace data.json only. App.jsx stays unchanged. Push to GitHub → Vercel auto-deploys.</div></div>
